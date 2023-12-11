@@ -1,0 +1,25 @@
+.container {
+  padding: 15px;
+  background: dimgrey;
+  max-width: 400px;
+  opacity: 0.7;
+  width: 100%;
+  margin: 0 auto;
+  .todoItem{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+
+  }
+}
+.filterButton{
+  display: flex;
+  justify-content: space-evenly;
+  //border-radius: 5px;
+  background: white;
+}
+Button{
+  //border-radius: 3px;
+  font-size: 15px;
+}

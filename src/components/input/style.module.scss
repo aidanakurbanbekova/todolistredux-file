@@ -1,0 +1,14 @@
+.todoInput{
+  display: flex;
+  justify-content: flex-start;
+  .Input{
+    width: 320px;
+    padding: 5px;
+    background: white;
+    border-radius: 2px;
+    border: none;
+    margin-right: 30px;
+
+  }
+}
+
