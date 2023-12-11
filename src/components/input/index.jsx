@@ -5,13 +5,15 @@ const Input = (props ) => {
     const {
         onChange,
         value,
-        onKeyDown
+        onKeyDown,
+
     } = props
     return(
         <div className={styles.todoInput}>
             <input
                 className={styles.Input}
                 value={value}
+                placeholder="Enter"
                 onChange={e => onChange(e.target.value)}
                 type="text"
                 onKeyDown={onKeyDown}
